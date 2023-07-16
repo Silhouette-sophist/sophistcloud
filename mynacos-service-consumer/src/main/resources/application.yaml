@@ -1,0 +1,11 @@
+server:
+  port: 9010
+
+
+spring:
+  application:
+    name: mynacos-service-consumer
+
+  cloud:
+    nacos:
+      server-addr: 192.168.23.128:8848

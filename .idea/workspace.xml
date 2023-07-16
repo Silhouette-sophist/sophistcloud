@@ -4,19 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edebcf2b-0600-45df-a726-75124ef0a71d" name="Changes" comment="引入nacos模块">
-      <change afterPath="$PROJECT_DIR$/mynacos/src/main/java/com/example/sophistcloud/MyNacosApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mynacos/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/apt/format.apt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/apt/index.apt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/fml/faq.fml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/fr/apt/format.apt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/fr/apt/index.apt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/fr/fml/faq.fml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/fr/xdoc/xdoc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/site.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/site_fr.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/xdoc/xdoc.xml" beforeDir="false" />
+    <list default="true" id="edebcf2b-0600-45df-a726-75124ef0a71d" name="Changes" comment="服务注册nacos并开启服务发现">
+      <change afterPath="$PROJECT_DIR$/common/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/example/sophistcloud/bean/CommonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mynacos-service-consumer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mynacos-service-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mynacos-service-consumer/src/main/java/com/example/sophistcloud/MyNacosConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mynacos-service-consumer/src/main/java/com/example/sophistcloud/controller/FetchFeignController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mynacos-service-consumer/src/main/java/com/example/sophistcloud/service/ServiceProviderClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mynacos-service-consumer/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mynacos-service-provider/src/main/java/com/example/sophistcloud/controller/FeignController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mynacos-service-provider/src/main/java/com/example/sophistcloud/service/ServiceConsumerClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mynacos-service-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mynacos-service-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mynacos-service-provider/src/main/java/com/example/sophistcloud/MyNacosApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mynacos-service-provider/src/main/java/com/example/sophistcloud/MyNacosProviderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mynacos-service-provider/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/mynacos-service-provider/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +44,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="D:\UserLibrary\apache-maven-3.8.4\repository" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../../UserLibrary/apache-maven-3.8.4/conf" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../UserLibrary/apache-maven-3.8.4" />
         <option name="userSettingsFile" value="D:\UserLibrary\apache-maven-3.8.4\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -61,10 +65,19 @@
     "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="Application" />
+        <option value="JarApplication" />
+        <option value="MavenRunConfiguration" />
+      </set>
+    </option>
+  </component>
   <component name="RunManager">
-    <configuration name="MyNacosApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.sophistcloud.MyNacosApplication" />
-      <module name="mynacos-service-provider" />
+    <configuration name="MyNacosConsumerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.sophistcloud.MyNacosConsumerApplication" />
+      <module name="mynacos-service-consumer" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.sophistcloud.*" />
@@ -88,7 +101,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyNacosApplication" />
+        <item itemvalue="Application.MyNacosConsumerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689495644325</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="服务注册nacos并开启服务发现">
+      <created>1689495992064</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1689495992064</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -148,6 +168,12 @@
     <MESSAGE value="init gitignore" />
     <MESSAGE value="optimize gitignore" />
     <MESSAGE value="引入nacos模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="引入nacos模块" />
+    <MESSAGE value="服务注册nacos并开启服务发现" />
+    <option name="LAST_COMMIT_MESSAGE" value="服务注册nacos并开启服务发现" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/sophistcloud$MyNacosProviderApplication.ic" NAME="MyNacosProviderApplication Coverage Results" MODIFIED="1689498824059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.sophistcloud.*</FILTER>
+    </SUITE>
   </component>
 </project>

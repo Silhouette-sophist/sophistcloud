@@ -10,7 +10,9 @@
     <version>1.0-SNAPSHOT</version>
 
     <modules>
-        <module>mynacos</module>
+        <module>mynacos-service-provider</module>
+        <module>mynacos-service-consumer</module>
+        <module>common</module>
     </modules>
 
     <!--常用属性，兼容springboot、springcloud、springcloud alibaba-->
@@ -25,17 +27,32 @@
 
     <!--通用依赖，父直接传递给子-->
     <dependencies>
+        <!--基本web场景-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+
+        <!--nacos服务注册和服务发现-->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
+
+        <!--注意，openfeign必须要和loadbalancer结合使用-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-openfeign</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-loadbalancer</artifactId>
+        </dependency>
+
+        <!--lombok插件-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
