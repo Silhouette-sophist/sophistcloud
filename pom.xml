@@ -13,6 +13,7 @@
         <module>mynacos-service-provider</module>
         <module>mynacos-service-consumer</module>
         <module>common</module>
+        <module>message_queue</module>
     </modules>
 
     <!--常用属性，兼容springboot、springcloud、springcloud alibaba-->

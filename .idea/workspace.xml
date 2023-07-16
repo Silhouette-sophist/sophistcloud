@@ -4,12 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edebcf2b-0600-45df-a726-75124ef0a71d" name="Changes" comment="整合mybatis plus">
-      <change afterPath="$PROJECT_DIR$/mynacos-service-provider/src/main/java/com/example/sophistcloud/controller/RedisController.java" afterDir="false" />
+    <list default="true" id="edebcf2b-0600-45df-a726-75124ef0a71d" name="Changes" comment="整合redis场景">
+      <change afterPath="$PROJECT_DIR$/message_queue/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message_queue/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message_queue/src/main/java/com/example/sophistcloud/MessageQueueApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message_queue/src/main/java/com/example/sophistcloud/component/ReceiveHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message_queue/src/main/java/com/example/sophistcloud/config/RabbitmqConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message_queue/src/main/java/com/example/sophistcloud/controller/MQController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message_queue/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mynacos-service-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mynacos-service-provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mynacos-service-provider/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/mynacos-service-provider/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +56,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "jdk.selected.JAVA_MODULE": "openjdk-17",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
@@ -70,7 +78,20 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyNacosProviderApplication">
+  <component name="RunManager" selected="Application.MessageQueueApplication">
+    <configuration name="MessageQueueApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.sophistcloud.MessageQueueApplication" />
+      <module name="message_queue" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.sophistcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyNacosConsumerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.sophistcloud.MyNacosConsumerApplication" />
       <module name="mynacos-service-consumer" />
@@ -110,6 +131,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MessageQueueApplication" />
         <item itemvalue="Application.MyNacosProviderApplication" />
         <item itemvalue="Application.MyNacosConsumerApplication" />
       </list>
@@ -201,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689509745020</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="整合redis场景">
+      <created>1689512314186</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1689512314186</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -226,7 +255,8 @@
     <MESSAGE value="版本依赖说明readme文件" />
     <MESSAGE value="添加中间件虚拟机说明" />
     <MESSAGE value="整合mybatis plus" />
-    <option name="LAST_COMMIT_MESSAGE" value="整合mybatis plus" />
+    <MESSAGE value="整合redis场景" />
+    <option name="LAST_COMMIT_MESSAGE" value="整合redis场景" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/sophistcloud$MyNacosProviderApplication.ic" NAME="MyNacosProviderApplication Coverage Results" MODIFIED="1689498824059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

@@ -1,0 +1,17 @@
+server:
+  port: 9020
+
+spring:
+  application:
+    name: message_queue
+
+  cloud:
+    nacos:
+      server-addr: 192.168.23.128:8848
+
+  rabbitmq:
+    host: 192.168.23.128
+    port: 5672
+    username: sophistnerd
+    password: sophistnerd
+    virtualHost: /
