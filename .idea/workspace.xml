@@ -4,23 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edebcf2b-0600-45df-a726-75124ef0a71d" name="Changes" comment="服务注册nacos并开启服务发现">
-      <change afterPath="$PROJECT_DIR$/common/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/example/sophistcloud/bean/CommonResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mynacos-service-consumer/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mynacos-service-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mynacos-service-consumer/src/main/java/com/example/sophistcloud/MyNacosConsumerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mynacos-service-consumer/src/main/java/com/example/sophistcloud/controller/FetchFeignController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mynacos-service-consumer/src/main/java/com/example/sophistcloud/service/ServiceProviderClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mynacos-service-consumer/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mynacos-service-provider/src/main/java/com/example/sophistcloud/controller/FeignController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mynacos-service-provider/src/main/java/com/example/sophistcloud/service/ServiceConsumerClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mynacos-service-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mynacos-service-provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mynacos-service-provider/src/main/java/com/example/sophistcloud/MyNacosApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mynacos-service-provider/src/main/java/com/example/sophistcloud/MyNacosProviderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mynacos-service-provider/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/mynacos-service-provider/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="edebcf2b-0600-45df-a726-75124ef0a71d" name="Changes" comment="服务注册、服务发现，并通过openfeign实现相互调用">
+      <change afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689495992064</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="服务注册、服务发现，并通过openfeign实现相互调用">
+      <created>1689499123252</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1689499123252</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,7 +161,8 @@
     <MESSAGE value="optimize gitignore" />
     <MESSAGE value="引入nacos模块" />
     <MESSAGE value="服务注册nacos并开启服务发现" />
-    <option name="LAST_COMMIT_MESSAGE" value="服务注册nacos并开启服务发现" />
+    <MESSAGE value="服务注册、服务发现，并通过openfeign实现相互调用" />
+    <option name="LAST_COMMIT_MESSAGE" value="服务注册、服务发现，并通过openfeign实现相互调用" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/sophistcloud$MyNacosProviderApplication.ic" NAME="MyNacosProviderApplication Coverage Results" MODIFIED="1689498824059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
