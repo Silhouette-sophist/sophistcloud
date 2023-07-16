@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edebcf2b-0600-45df-a726-75124ef0a71d" name="Changes" comment="服务注册、服务发现，并通过openfeign实现相互调用">
-      <change afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-    </list>
+    <list default="true" id="edebcf2b-0600-45df-a726-75124ef0a71d" name="Changes" comment="版本依赖说明readme文件" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -141,7 +139,21 @@
       <option name="project" value="LOCAL" />
       <updated>1689499123252</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="添加readme文件说明">
+      <created>1689499386712</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1689499386712</updated>
+    </task>
+    <task id="LOCAL-00008" summary="版本依赖说明readme文件">
+      <created>1689499485669</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1689499485669</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -162,7 +174,9 @@
     <MESSAGE value="引入nacos模块" />
     <MESSAGE value="服务注册nacos并开启服务发现" />
     <MESSAGE value="服务注册、服务发现，并通过openfeign实现相互调用" />
-    <option name="LAST_COMMIT_MESSAGE" value="服务注册、服务发现，并通过openfeign实现相互调用" />
+    <MESSAGE value="添加readme文件说明" />
+    <MESSAGE value="版本依赖说明readme文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="版本依赖说明readme文件" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/sophistcloud$MyNacosProviderApplication.ic" NAME="MyNacosProviderApplication Coverage Results" MODIFIED="1689498824059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
