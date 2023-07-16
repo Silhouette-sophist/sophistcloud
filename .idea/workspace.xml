@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edebcf2b-0600-45df-a726-75124ef0a71d" name="Changes" comment="添加中间件虚拟机说明">
-      <change afterPath="$PROJECT_DIR$/mynacos-service-consumer/src/main/java/com/example/sophistcloud/controller/MybatisPlugController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mynacos-service-consumer/src/main/java/com/example/sophistcloud/entity/SimpleUserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mynacos-service-consumer/src/main/java/com/example/sophistcloud/mapper/SimpleUserInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mynacos-service-consumer/src/main/java/com/example/sophistcloud/service/ISimpleUserInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mynacos-service-consumer/src/main/java/com/example/sophistcloud/service/impl/SimpleUserInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mynacos-service-consumer/src/main/resources/mapper/SimpleUserInfoMapper.xml" afterDir="false" />
+    <list default="true" id="edebcf2b-0600-45df-a726-75124ef0a71d" name="Changes" comment="整合mybatis plus">
+      <change afterPath="$PROJECT_DIR$/mynacos-service-provider/src/main/java/com/example/sophistcloud/controller/RedisController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mynacos-service-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mynacos-service-consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mynacos-service-consumer/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/mynacos-service-consumer/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mynacos-service-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mynacos-service-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mynacos-service-provider/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/mynacos-service-provider/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,10 +70,23 @@
       </set>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MyNacosProviderApplication">
     <configuration name="MyNacosConsumerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.sophistcloud.MyNacosConsumerApplication" />
       <module name="mynacos-service-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.sophistcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyNacosProviderApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.sophistcloud.MyNacosProviderApplication" />
+      <module name="mynacos" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.sophistcloud.*" />
@@ -103,6 +110,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyNacosProviderApplication" />
         <item itemvalue="Application.MyNacosConsumerApplication" />
       </list>
     </recent_temporary>
@@ -186,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689500425228</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="整合mybatis plus">
+      <created>1689509745020</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1689509745020</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -210,7 +225,8 @@
     <MESSAGE value="添加readme文件说明" />
     <MESSAGE value="版本依赖说明readme文件" />
     <MESSAGE value="添加中间件虚拟机说明" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加中间件虚拟机说明" />
+    <MESSAGE value="整合mybatis plus" />
+    <option name="LAST_COMMIT_MESSAGE" value="整合mybatis plus" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/sophistcloud$MyNacosProviderApplication.ic" NAME="MyNacosProviderApplication Coverage Results" MODIFIED="1689498824059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
