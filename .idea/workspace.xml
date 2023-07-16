@@ -4,13 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edebcf2b-0600-45df-a726-75124ef0a71d" name="Changes" comment="init gitignore">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="edebcf2b-0600-45df-a726-75124ef0a71d" name="Changes" comment="引入nacos模块">
+      <change afterPath="$PROJECT_DIR$/mynacos/src/main/java/com/example/sophistcloud/MyNacosApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mynacos/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/site/apt/format.apt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/site/apt/index.apt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/site/fml/faq.fml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/site/fr/apt/format.apt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/site/fr/apt/index.apt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/site/fr/fml/faq.fml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/site/fr/xdoc/xdoc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/site/site.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/site/site_fr.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/site/xdoc/xdoc.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,7 +46,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2Se7E5baRU0rRgCpo92AINHrCmh" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -37,10 +57,24 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "jdk.selected.JAVA_MODULE": "openjdk-17",
     "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
   <component name="RunManager">
+    <configuration name="MyNacosApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.sophistcloud.MyNacosApplication" />
+      <module name="mynacos-service-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.sophistcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -52,6 +86,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MyNacosApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -76,7 +115,21 @@
       <option name="project" value="LOCAL" />
       <updated>1689495218285</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="optimize gitignore">
+      <created>1689495398824</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689495398824</updated>
+    </task>
+    <task id="LOCAL-00004" summary="引入nacos模块">
+      <created>1689495644325</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1689495644325</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -93,6 +146,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init repo" />
     <MESSAGE value="init gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="init gitignore" />
+    <MESSAGE value="optimize gitignore" />
+    <MESSAGE value="引入nacos模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="引入nacos模块" />
   </component>
 </project>

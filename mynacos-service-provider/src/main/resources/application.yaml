@@ -1,0 +1,10 @@
+server:
+  port: 9000
+
+spring:
+  application:
+    name: mynacos-service-provider
+
+  cloud:
+    nacos:
+      server-addr: 192.168.23.128:8848
