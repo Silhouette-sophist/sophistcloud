@@ -6,8 +6,14 @@
 
     <groupId>org.example</groupId>
     <artifactId>sophistcloud</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
+    <modules>
+        <module>mynacos</module>
+    </modules>
+
+    <!--常用属性，兼容springboot、springcloud、springcloud alibaba-->
     <properties>
         <java.version>17</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -16,6 +22,8 @@
         <spring-cloud-alibaba.version>2021.0.5.0</spring-cloud-alibaba.version>
         <spring-cloud.version>2021.0.5</spring-cloud.version>
     </properties>
+
+    <!--通用依赖，父直接传递给子-->
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -35,6 +43,8 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
+    <!--版本仲裁-->
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -60,6 +70,7 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
     <build>
         <plugins>
             <plugin>
