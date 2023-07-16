@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edebcf2b-0600-45df-a726-75124ef0a71d" name="Changes" comment="添加中间件虚拟机说明">
+      <change afterPath="$PROJECT_DIR$/mynacos-service-consumer/src/main/java/com/example/sophistcloud/controller/MybatisPlugController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mynacos-service-consumer/src/main/java/com/example/sophistcloud/entity/SimpleUserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mynacos-service-consumer/src/main/java/com/example/sophistcloud/mapper/SimpleUserInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mynacos-service-consumer/src/main/java/com/example/sophistcloud/service/ISimpleUserInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mynacos-service-consumer/src/main/java/com/example/sophistcloud/service/impl/SimpleUserInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mynacos-service-consumer/src/main/resources/mapper/SimpleUserInfoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mynacos-service-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mynacos-service-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mynacos-service-consumer/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/mynacos-service-consumer/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +60,13 @@
     "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SourceCode\sophistcloud\mynacos-service-consumer\src\main\java\com\example\sophistcloud\service" />
+      <recent name="D:\SourceCode\sophistcloud\mynacos-service-consumer\src\main\java\com\example\sophistcloud" />
+      <recent name="D:\SourceCode\sophistcloud\mynacos-service-consumer\src\main\resources\mapper" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -162,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689499946487</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="添加中间件虚拟机说明">
+      <created>1689500425228</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1689500425228</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
