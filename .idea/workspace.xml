@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edebcf2b-0600-45df-a726-75124ef0a71d" name="Changes" comment="整合redis场景">
-      <change afterPath="$PROJECT_DIR$/elasticsearch/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elasticsearch/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elasticsearch/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elasticsearch/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elasticsearch/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elasticsearch/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elasticsearch/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elasticsearch/src/main/java/com/example/elasticsearch/ElasticsearchApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elasticsearch/src/main/java/com/example/elasticsearch/config/ElasticSearchConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elasticsearch/src/main/java/com/example/elasticsearch/dao/ESBookRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elasticsearch/src/main/java/com/example/elasticsearch/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elasticsearch/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elasticsearch/src/test/java/com/example/elasticsearch/ElasticsearchApplicationTests.java" afterDir="false" />
+    <list default="true" id="edebcf2b-0600-45df-a726-75124ef0a71d" name="Changes" comment="整合elasticsearch场景">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -367,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689512314186</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="整合elasticsearch场景">
+      <created>1690655417058</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1690655417058</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -393,7 +387,8 @@
     <MESSAGE value="添加中间件虚拟机说明" />
     <MESSAGE value="整合mybatis plus" />
     <MESSAGE value="整合redis场景" />
-    <option name="LAST_COMMIT_MESSAGE" value="整合redis场景" />
+    <MESSAGE value="整合elasticsearch场景" />
+    <option name="LAST_COMMIT_MESSAGE" value="整合elasticsearch场景" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/sophistcloud$MyNacosProviderApplication.ic" NAME="MyNacosProviderApplication Coverage Results" MODIFIED="1689498824059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
